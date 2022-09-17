@@ -826,7 +826,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.global/9561637e-6e49-4f28-9e67-8e2d825f9ef9/stats-bg.jpg?v=1663450550194") center center;
   background-size: cover;
   padding: 100px 0;
 }
