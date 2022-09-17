@@ -2,7 +2,7 @@
   font-display: block;
   font-family: "bootstrap-icons";
   src: url("./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
-url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+url("https://cdn.glitch.global/9561637e-6e49-4f28-9e67-8e2d825f9ef9/bootstrap-icons.woff?v=1663454969062") format("woff");
 }
 
 .bi::before,
