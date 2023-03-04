@@ -1,3 +1,13 @@
+Swal.fire({
+  title: 'Sweet!',
+  text: Kedves Vendégeink!
+Február 28.-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 7.-e!
+Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül 😊🍣🥢🫶🙏',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+})
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
