@@ -1,16 +1,14 @@
-alert(
-  Swal.fire({
-  title: `Zárva vagyunk!,
-  text: `Kedves Vendégeink! Február 28-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 14-e!Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül`,
-  imageUrl: 'https://cdn-icons-png.flaticon.com/512/938/938091.png?w=900&t=st=1677935937~exp=1677936537~hmac=4b9db0cbafb842422132c8465ce0c94c4760a1b8ff5f94a3e250c2f207a1e56c',
-  imageWidth: 400,
-  imageHeight: 200,
-  imageAlt: 'We are sorry',
-})
-)
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
-
+  
+Swal.fire({
+  title: `Kedves Vendégeink!`,
+  text: 'Február 28-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 14-e! Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül',
+  imageUrl: 'https://cdn-icons-png.flaticon.com/512/1207/1207251.png?w=900&t=st=1677936632~exp=1677937232~hmac=305ccbf434535f19a856dce31b2f831d96ec03ed04441ad5c4ee02e2985bc300',
+  imageWidth: 100,
+  imageHeight: 100,
+  imageAlt: 'We are sorry',
+})
   /**
    * Preloader
    */
