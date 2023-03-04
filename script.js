@@ -1,14 +1,13 @@
-Swal.fire({
-  title: 'Sweet!',
-  text: Kedves Vendégeink!
-Február 28.-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 7.-e!
-Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül 😊🍣🥢🫶🙏',
-  imageUrl: 'https://unsplash.it/400/200',
+alert(
+  Swal.fire({
+  title: `Zárva vagyunk!,
+  text: `Kedves Vendégeink! Február 28-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 14-e!Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül`,
+  imageUrl: 'https://cdn-icons-png.flaticon.com/512/938/938091.png?w=900&t=st=1677935937~exp=1677936537~hmac=4b9db0cbafb842422132c8465ce0c94c4760a1b8ff5f94a3e250c2f207a1e56c',
   imageWidth: 400,
   imageHeight: 200,
-  imageAlt: 'Custom image',
+  imageAlt: 'We are sorry',
 })
-
+)
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
