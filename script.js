@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 Swal.fire({
   title: `Kedves Vendégeink!`,
-  text: 'Február 28-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 14-e! Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül',
+  text: 'Február 28-ától üzletünkben megkezdődnek a felújítási munkállatok ezért a héten ZÁRVA leszünk! 🙂 Várható nyitásunk március 14-e! Pénteki napra azonban le tudjátok adni Kaposvárra előrendeléseiteket! Köszönjük a megértést, és már alig várjuk, hogy teljesen megújult külsővel lássunk Titeket vendégül',
   imageUrl: 'https://cdn-icons-png.flaticon.com/512/1207/1207251.png?w=900&t=st=1677936632~exp=1677937232~hmac=305ccbf434535f19a856dce31b2f831d96ec03ed04441ad5c4ee02e2985bc300',
   imageWidth: 100,
   imageHeight: 100,
