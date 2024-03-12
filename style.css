@@ -527,7 +527,7 @@ section {
 
 .about-img {
   max-width: 100%; /* Ensure the image doesn't exceed its container */
-  height: auto; /* Maintain aspect ratio */
+  height: 100%; /* Maintain aspect ratio */
 }
 .about h3 {
   font-weight: 700;
