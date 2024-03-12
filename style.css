@@ -518,10 +518,17 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .about-img {
-  min-height: 700px;
+.about-img-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  position: relative;
 }
 
+.about-img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
 .about h3 {
   font-weight: 700;
   font-size: 36px;
