@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', () => {
+  Swal.fire({
+    title: "Custom width, padding, color, background.",
+    width: 600,
+    padding: "3em",
+    color: "#716add",
+    background: "#fff url(/images/trees.png)",
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url("/images/nyan-cat.gif")
+      left top
+      no-repeat
+    `
+  });
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
@@ -20,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
       window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
-
   /**
    * Navbar links active state on scroll
    */
@@ -233,3 +246,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
