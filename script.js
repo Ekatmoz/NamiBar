@@ -1,4 +1,3 @@
-alert("Kedves Vendégeink! Május 1.-én üzletünk zárva tart! Csütörtökön találkozunk!Köszönjük a megértést!")
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
