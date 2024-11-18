@@ -1,6 +1,16 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
+  
+  
+  // SweetAlert2 Example
+  Swal.fire({
+  title: "Kedves Vendégeink!",
+  html: "Siófoki üzletünk átköltözött a Vitorlás u. 1.-3. szám. Maradtunk Siófokon, ahol egy nagyobb, komfortosabb helyen várunk. <br/>Titeket szeretettel télen és nyáron, egész évben.",
+  imageUrl: "https://cdn.glitch.global/9561637e-6e49-4f28-9e67-8e2d825f9ef9/att.jArgiUO8Q8CaHXp7LvpezcbJTrirbMWhbAqRO4oTCIc.jpg?v=1731935095570",
+  imageWidth: 400,
+  imageHeight: 200,
+  imageAlt: "Custom image"
+});
   /**
    * Preloader
    */
