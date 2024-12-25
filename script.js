@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // SweetAlert2 Example
   Swal.fire({
   title: "Kedves Vendégeink!",
-  html: "Siófoki üzletünk átköltözött a Vitorlás u. 1.-3. szám. Maradtunk Siófokon, ahol egy nagyobb, komfortosabb helyen várunk. <br/>Titeket szeretettel télen és nyáron, egész évben.",
-  imageUrl: "https://cdn.glitch.global/9561637e-6e49-4f28-9e67-8e2d825f9ef9/att.jArgiUO8Q8CaHXp7LvpezcbJTrirbMWhbAqRO4oTCIc.jpg?v=1731935095570",
+  html: "Ünnepi Nyitvatartásunk:<br/>December 24.-25.-26. ZÁRVA<br/>December 27. 11:00-21:00<br/>December 28. 11:00-21:00<br/>December 29. 11:00-20:00<br/>December 30. 11:00-20:00<br/>December 31. Előrendelések átadása<br/>Január 1. ZÁRVA<br/>Kellemes ünnepeket!",
+  imageUrl: "https://images.pexels.com/photos/250177/pexels-photo-250177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   imageWidth: 400,
   imageHeight: 200,
   imageAlt: "Custom image"
