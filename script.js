@@ -1,16 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
   
-  
-  // SweetAlert2 Example
-  Swal.fire({
-  title: "Kedves Vendégeink!",
-  html: "Ünnepi Nyitvatartásunk:<br/>December 24.-25.-26. ZÁRVA<br/>December 27. 11:00-21:00<br/>December 28. 11:00-21:00<br/>December 29. 11:00-20:00<br/>December 30. 11:00-20:00<br/>December 31. Előrendelések átadása<br/>Január 1. ZÁRVA<br/>Kellemes ünnepeket!",
-  imageUrl: "https://images.pexels.com/photos/250177/pexels-photo-250177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  imageWidth: 400,
-  imageHeight: 200,
-  imageAlt: "Custom image"
-});
   /**
    * Preloader
    */
