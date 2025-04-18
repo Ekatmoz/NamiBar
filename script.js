@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   Swal.fire({
   title: 'Kedves Vendégünk!',
-  text: 'Felhívjuk figyelmét, hogy április 21-én, hétfőn zárva tartunk. <br /> Mindenkinek kellemes húsvéti ünnepeket kívánunk!',
+  html: 'Felhívjuk figyelmét, hogy április 21-én, hétfőn zárva tartunk. <br /> Mindenkinek kellemes húsvéti ünnepeket kívánunk!',
   icon: 'info',
   confirmButtonText: 'OK'
 });
