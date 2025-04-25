@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
-  
+  /**
   Swal.fire({
   title: 'Kedves Vendégünk!',
   html: 'Felhívjuk figyelmét, hogy április 21-én, hétfőn zárva tartunk. <br /> Mindenkinek kellemes húsvéti ünnepeket kívánunk!',
