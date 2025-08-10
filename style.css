@@ -82,8 +82,13 @@ section {
 .section-header p span {
   color: var(--color-primary);
 }
+.allergy{
+  border: 1px #e6d11c solid;
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 7rem;
 
-/
+}
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
